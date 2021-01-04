@@ -1,0 +1,26 @@
+Source: nemo-gst-interfaces
+Priority: optional
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               libgstreamer-plugins-base1.0-dev,
+               libgstreamer1.0-dev
+Standards-Version: 4.1.4
+Section: libs
+Homepage: https://git.merproject.org/mer-core/nemo-gst-interfaces
+Vcs-Git: https://gitlab.com/debian-pm/halium/nemo-gst-interfaces.git
+Vcs-Browser: https://gitlab.com/debian-pm/halium/nemo-gst-interfaces
+
+Package: nemo-gstreamer1.0-interfaces-dev
+Section: libdevel
+Architecture: any
+Depends: nemo-gstreamer1.0-interfaces (= ${binary:Version}), ${misc:Depends}
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces
+
+Package: nemo-gstreamer1.0-interfaces
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Nemo mobile GStreamer interfaces
+ Nemo mobile GStreamer interfaces

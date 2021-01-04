@@ -1,0 +1,69 @@
+nemo-gst-interfaces (0.20200421.0-1+gemian) unstable; urgency=medium
+
+  * Branch for Gemian
+
+ -- Adam Boardman <adamboardman@gmail.com>  Mon, 4 Jan 2021 20:28:00 +0000
+ 
+nemo-gst-interfaces (0.20200421.0-1~ubports16.04.1) xenial; urgency=medium
+
+  * Merge version 0.20200421.0-1 from Debian-PM
+  * Update source location for 0.20200421.0
+  * Remove 0001-implement-meta-transform-function.patch, applied upstream
+    - As this is the only patch, also remove the series file.
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Tue, 09 Jun 2020 00:40:53 +0700
+
+nemo-gst-interfaces (0.20200421.0-1) unstable; urgency=medium
+
+  * New upstream release. Changes since the last update includes:
+    - Avoid warning in initialization.
+    - Add a memory type abstracting EGL images.
+
+ -- Ratchanan Srirattanamet <ratchanan@ubports.com>  Fri, 08 May 2020 02:04:50 +0700
+
+nemo-gst-interfaces (0.20191010.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sun, 19 Jan 2020 18:46:05 +0100
+
+nemo-gst-interfaces (0.20150126.0-3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Sun, 19 Jan 2020 18:45:45 +0100
+
+nemo-gst-interfaces (0.20150126.0-3-1~ubports16.04.2) xenial; urgency=medium
+
+  * d/patches/0001-implement-meta-transform-function.patch
+    - nemometa: implement meta_transform function
+
+ -- Ratchanan Srirattanamet <peathot@hotmail.com>  Wed, 28 Aug 2019 00:50:21 +0700
+
+nemo-gst-interfaces (0.20150126.0-3-1~ubports16.04.1) xenial; urgency=medium
+
+  * Import to UBports
+  * Backport to xenial
+    - Reduce debhelper compatibility to 9
+    - Bring back dh_autoreconf build-dep because it's not automatically
+      included in debhelper 9.
+
+ -- Ratchanan Srirattanamet <peathot@hotmail.com>  Fri, 23 Aug 2019 23:57:46 +0700
+
+nemo-gst-interfaces (0.20150126.0-3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Ratchanan Srirattanamet <peathot@hotmail.com>  Fri, 23 Aug 2019 01:24:21 +0700
+
+nemo-gst-interfaces (0.20150126.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Thu, 07 Jun 2018 16:49:28 +0200
+
+nemo-gst-interfaces (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Bhushan Shah <bhush94@gmail.com>  Tue, 12 Dec 2017 13:39:49 +0000
