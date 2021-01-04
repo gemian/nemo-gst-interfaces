@@ -2,11 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: nemo-gst-interfaces
 Source: https://git.merproject.org/mer-core/nemo-gst-interfaces
 
-Files: *
-Copyright: 1991, 1999, Free Software Foundation, Inc.
-License: UNKNOWN
- Please fill license UNKNOWN from header of *
-
 Files: INSTALL
 Copyright: 1994-1996, 1999-2002, 2004-2009, Free Software Foundation, Inc.
 License: FSFAP
